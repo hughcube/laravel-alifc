@@ -45,9 +45,7 @@ abstract class Action
     }
 
     /**
-     * @phpstan-ignore-next-line
-     *
-     * @throws
+     * @return Dispatcher
      */
     protected function getDispatcher(): Dispatcher
     {
@@ -55,9 +53,7 @@ abstract class Action
     }
 
     /**
-     * @phpstan-ignore-next-line
-     *
-     * @throws
+     * @return EventsDispatcher
      */
     protected function getEventsDispatcher(): EventsDispatcher
     {
